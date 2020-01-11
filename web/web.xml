@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>Servlets.SignUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogIn</servlet-name>
+        <servlet-class>Servlets.LogIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogIn</servlet-name>
+        <url-pattern>/LogIn</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>Servlets.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Authenticate</servlet-name>
+        <servlet-class>Servlets.Authenticate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Authenticate</servlet-name>
+        <url-pattern>/Authenticate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticateInterviewCallToApp</servlet-name>
+        <servlet-class>Servlets.AuthenticateInterviewCallToApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticateInterviewCallToApp</servlet-name>
+        <url-pattern>/AuthenticateInterviewCallToApp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingApplicantNotification</servlet-name>
+        <servlet-class>Servlets.AuthenticatingApplicantNotification</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingApplicantNotification</servlet-name>
+        <url-pattern>/AuthenticatingApplicantNotification</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingLastEmail</servlet-name>
+        <servlet-class>Servlets.AuthenticatingLastEmail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingLastEmail</servlet-name>
+        <url-pattern>/AuthenticatingLastEmail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingSecondInterviewCallToApp</servlet-name>
+        <servlet-class>Servlets.AuthenticatingSecondInterviewCallToApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingSecondInterviewCallToApp</servlet-name>
+        <url-pattern>/AuthenticatingSecondInterviewCallToApp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingSMEReq</servlet-name>
+        <servlet-class>Servlets.AuthenticatingSMEReq</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingSMEReq</servlet-name>
+        <url-pattern>/AuthenticatingSMEReq</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingTimingConfirmation</servlet-name>
+        <servlet-class>Servlets.AuthenticatingTimingConfirmation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingTimingConfirmation</servlet-name>
+        <url-pattern>/AuthenticatingTimingConfirmation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InterviewCallToApp</servlet-name>
+        <servlet-class>Servlets.InterviewCallToApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InterviewCallToApp</servlet-name>
+        <url-pattern>/InterviewCallToApp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InterviewReqSME</servlet-name>
+        <servlet-class>Servlets.InterviewReqSME</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InterviewReqSME</servlet-name>
+        <url-pattern>/InterviewReqSME</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LastEmail</servlet-name>
+        <servlet-class>Servlets.LastEmail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LastEmail</servlet-name>
+        <url-pattern>/LastEmail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NotifyApplicant</servlet-name>
+        <servlet-class>Servlets.NotifyApplicant</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NotifyApplicant</servlet-name>
+        <url-pattern>/NotifyApplicant</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SecondInterviewCallToApp</servlet-name>
+        <servlet-class>Servlets.SecondInterviewCallToApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondInterviewCallToApp</servlet-name>
+        <url-pattern>/SecondInterviewCallToApp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TimingConfirmation</servlet-name>
+        <servlet-class>Servlets.TimingConfirmation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimingConfirmation</servlet-name>
+        <url-pattern>/TimingConfirmation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SkypeConferenceController</servlet-name>
+        <servlet-class>Servlets.SkypeConferenceController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SkypeConferenceController</servlet-name>
+        <url-pattern>/SkypeConferenceController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthenticatingSkypeConferenceController</servlet-name>
+        <servlet-class>Servlets.AuthenticatingSkypeConferenceController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthenticatingSkypeConferenceController</servlet-name>
+        <url-pattern>/AuthenticatingSkypeConferenceController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JobController</servlet-name>
+        <servlet-class>Servlets.JobController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JobController</servlet-name>
+        <url-pattern>/JobController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FeedbackController</servlet-name>
+        <servlet-class>Servlets.FeedbackController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FeedbackController</servlet-name>
+        <url-pattern>/FeedbackController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchJob</servlet-name>
+        <servlet-class>Servlets.SearchJob</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchJob</servlet-name>
+        <url-pattern>/SearchJob</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApplyJob</servlet-name>
+        <servlet-class>Servlets.ApplyJob</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApplyJob</servlet-name>
+        <url-pattern>/ApplyJob</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ApplicantsController</servlet-name>
+        <servlet-class>Servlets.ApplicantsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApplicantsController</servlet-name>
+        <url-pattern>/ApplicantsController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReviewApplicants</servlet-name>
+        <servlet-class>Servlets.ReviewApplicants</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReviewApplicants</servlet-name>
+        <url-pattern>/ReviewApplicants</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RateApplicant</servlet-name>
+        <servlet-class>Servlets.RateApplicant</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RateApplicant</servlet-name>
+        <url-pattern>/RateApplicant</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewAppRating</servlet-name>
+        <servlet-class>Servlets.ViewAppRating</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewAppRating</servlet-name>
+        <url-pattern>/ViewAppRating</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReviewTopAppController</servlet-name>
+        <servlet-class>Servlets.ReviewTopAppController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReviewTopAppController</servlet-name>
+        <url-pattern>/ReviewTopAppController</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SuccessfullyApplied</servlet-name>
+        <servlet-class>Servlets.SuccessfullyApplied</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuccessfullyApplied</servlet-name>
+        <url-pattern>/SuccessfullyApplied</url-pattern>
+    </servlet-mapping>
+</web-app>
